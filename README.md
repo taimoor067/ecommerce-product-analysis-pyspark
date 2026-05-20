@@ -1,10 +1,16 @@
 E-commerce-product-analysis-pyspark
+Group Members
+
+● Taimoor Zulfiqar 2023-ag-9685
+● Kannaz Shafqat 2023-ag-9558
 
 Project Description<br>
+
 E-commerce Product Analysis using PySpark:<br>
 This project analyzes e-commerce retail transaction data using Apache PySpark, a powerful big data processing framework. The goal is to extract meaningful insights from product sales data by performing data loading, transformation, and analysis tasks inside a Jupyter Notebook environment set up via Anaconda.<br>
 
 Objective:<br>
+
 To process and analyze e-commerce product data efficiently using PySpark, identifying the most expensive product and analyzing product distribution across countries.<br>
 
 Tools & Technologies:<br>
@@ -16,12 +22,10 @@ Anaconda | Environment & package management
 Python 3 | Programming language
 
 Tasks Performed:<br>
-
 Load CSV Dataset: Loaded e-commerce dataset (InvoiceNo, StockCode, Description, Quantity, UnitPrice, Country) into a PySpark DataFrame<br>
 Find Most Expensive Product: Identified the product with the highest UnitPrice using sorting operations<br>
 Group by Country: Grouped data by Country to analyze transaction distribution<br>
 Count Products per Country: Calculated total number of products sold per country using aggregation functions<br>
-
 Dataset:<br>
 
 Format: CSV<br>
