@@ -1,42 +1,73 @@
-E-commerce-product-analysis-pyspark
-Group Members
+# 📊 E-commerce Product Analysis using PySpark
 
-● Taimoor Zulfiqar 2023-ag-9685
-● Kannaz Shafqat 2023-ag-9558
+## 👥 Group Members
+- Taimoor Zulfiqar (2023-AG-9685)  
+- Kannaz Shafqat (2023-AG-9558)
 
-Project Description<br>
+---
 
-E-commerce Product Analysis using PySpark:<br>
-This project analyzes e-commerce retail transaction data using Apache PySpark, a powerful big data processing framework. The goal is to extract meaningful insights from product sales data by performing data loading, transformation, and analysis tasks inside a Jupyter Notebook environment set up via Anaconda.<br>
+## 📌 Project Description
+This project analyzes e-commerce retail transaction data using **Apache PySpark**, a big data processing framework.  
+It focuses on extracting meaningful insights from product sales data using data loading, transformation, and analysis techniques in a Jupyter Notebook environment (Anaconda).
 
-Objective:<br>
+---
 
-To process and analyze e-commerce product data efficiently using PySpark, identifying the most expensive product and analyzing product distribution across countries.<br>
+## 🎯 Objective
+To process and analyze e-commerce product data efficiently using PySpark in order to:
+- Identify the most expensive product
+- Analyze product distribution across countries
+- Perform aggregation and grouping operations on large datasets
 
-Tools & Technologies:<br>
+---
 
-Tool | Purpose
-Apache PySpark | Big data processing & analysis
-Jupyter Notebook | Interactive code execution
-Anaconda | Environment & package management
-Python 3 | Programming language
+## 🛠 Tools & Technologies
 
-Tasks Performed:<br>
-Load CSV Dataset: Loaded e-commerce dataset (InvoiceNo, StockCode, Description, Quantity, UnitPrice, Country) into a PySpark DataFrame<br>
-Find Most Expensive Product: Identified the product with the highest UnitPrice using sorting operations<br>
-Group by Country: Grouped data by Country to analyze transaction distribution<br>
-Count Products per Country: Calculated total number of products sold per country using aggregation functions<br>
-Dataset:<br>
+- **Apache PySpark** – Big data processing and analytics  
+- **Python 3** – Programming language  
+- **Jupyter Notebook** – Interactive development environment  
+- **Anaconda** – Environment and package management  
 
-Format: CSV<br>
-Columns: InvoiceNo, StockCode, Description, Quantity, UnitPrice, CustomerID, Country<br>
-Source: Kaggle Online Retail Dataset<br>
-Size: ~1000+ records (real-world retail transaction data)<br>
+---
 
-Key Learnings:<br>
+## 📂 Dataset Information
 
-Setting up and using Apache PySpark in Jupyter Notebook<br>
-Loading and processing CSV datasets using Spark DataFrames<br>
-Performing sorting, grouping, and aggregation operations<br>
-Handling real-world structured data efficiently<br>
-Exporting processed results to CSV files for reporting<br>
+- **Dataset Name:** Online Retail Dataset  
+- **Format:** CSV  
+- **Columns:** InvoiceNo, StockCode, Description, Quantity, UnitPrice, CustomerID, Country  
+- **Source:** Kaggle  
+- **Size:** ~1000+ records  
+
+---
+
+## ⚙️ Tasks Performed
+
+### 1. Load Dataset
+Loaded the CSV dataset into a PySpark DataFrame for processing.
+
+### 2. Data Exploration
+Explored structure and schema of dataset using PySpark functions.
+
+### 3. Most Expensive Product
+Identified the product with the highest unit price using sorting operations.
+
+### 4. Group by Country
+Grouped transactions by country to analyze distribution.
+
+### 5. Count Products per Country
+Used aggregation functions to calculate total product counts per country.
+
+### 6. Export Results
+Saved processed results into CSV files for reporting and analysis.
+
+---
+
+## 📊 Key Learnings
+
+- Basics of Apache PySpark and distributed data processing  
+- Working with DataFrames in big data environments  
+- Performing sorting, filtering, grouping, and aggregation  
+- Handling real-world retail datasets  
+- Exporting processed data for reporting  
+
+---
+
